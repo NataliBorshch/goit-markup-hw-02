@@ -1,8 +1,26 @@
+:root {
+    --accent-color: #2196F3;
+    --primary-text-color: #000000;
+    --title-text-color: #757575;
+    --focus-color: #FFFFFF;
+}
+
 body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-    color: #000000;
+    color:var(--primary-text-color);
+    background: var(--focus-color);
 }
+
+/*цвет черный 
+color: #000000;
+цвет акцента 
+color: #2196F3;
+цвет беллый 
+color: #FFFFFF;
+цвет текста серый 
+ color: #757575;
+*/
 
 .logo {
     font-family: Raleway;
@@ -12,7 +30,7 @@ body {
 }
 
 .logo>span {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .list {
@@ -24,7 +42,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #000000;
+    color:var(--primary-text-color);
     text-decoration: none;
 
 }
@@ -32,7 +50,7 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .link:active {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 header .contacts-link {
@@ -41,13 +59,13 @@ header .contacts-link {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #757575;
+    color: var(--title-text-color);
 }
 
 header .contacts-link:hover,
 .contacts-link:focus,
 .contacts-link:active {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .filter .button {
@@ -61,8 +79,8 @@ header .contacts-link:hover,
 .filter .button:hover,
 .filter .button:focus,
 .filter .button:active {
-    background: #2196F3;
-    color: #FFFFFF;
+    background: var(--accent-color);
+    color: var(--focus-color);
 }
 
 .work-title {
@@ -82,13 +100,13 @@ header .contacts-link:hover,
 .work-desk {
     font-size: 16px;
     line-height: 1.87;
-    color: #757575;
+    color: var(--title-text-color);
 }
 
 .work .work-excerpt {
     font-size: 18px;
     line-height: 1.56;
-    color: #FFFFFF;
+    color: var(--focus-color);
     background: rgba(33, 150, 243, 0.9);
 }
 
@@ -100,8 +118,8 @@ footer .button {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--focus-color);
+    background: var(--accent-color);
 }
 
 footer {
@@ -109,7 +127,7 @@ footer {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--focus-color);
 }
 
 footer .contacts-item {
@@ -122,11 +140,11 @@ footer .contacts-item {
 footer .contacts-item:hover,
 .contacts-item:active,
 .contacts-item:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 footer .contacts-address {
-    color: #FFFFFF;
+    color: var(--focus-color);
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -135,7 +153,7 @@ footer .contacts-address {
 footer .contacts-address:hover,
 .contacts-address:focus,
 .contacts-address:active {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 footer>address {
