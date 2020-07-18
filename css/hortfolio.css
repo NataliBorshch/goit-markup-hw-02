@@ -50,7 +50,7 @@ header .contacts-link:hover,
     color: #2196F3;
 }
 
-.site-nav .button {
+.filter .button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -58,13 +58,14 @@ header .contacts-link:hover,
     background: #F5F4FA;
 }
 
-.site-nav .button:hover,
-.site-nav .button:focus,
-.site-nav .button:active {
+.filter .button:hover,
+.filter .button:focus,
+.filter .button:active {
     background: #2196F3;
+    color: #FFFFFF;
 }
 
-.title-list {
+.work-title {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -74,17 +75,17 @@ header .contacts-link:hover,
     color: #212121;
 }
 
-.list-link {
+.work {
     text-decoration: none;
 }
 
-.list-desk {
+.work-desk {
     font-size: 16px;
     line-height: 1.87;
     color: #757575;
 }
 
-.list-link .excerpt {
+.work .work-excerpt {
     font-size: 18px;
     line-height: 1.56;
     color: #FFFFFF;
