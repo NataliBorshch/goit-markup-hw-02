@@ -1,14 +1,15 @@
-:root{
+:root {
     --accent-color: #2196F3;
     --primary-text-color: #000000;
     --title-text-color: #757575;
     --focus-color: #FFFFFF;
 }
+
 body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-    color:var(--primary-text-color);
-    background:var(--focus-color);
+    color: var(--primary-text-color);
+    background: var(--focus-color);
 }
 
 .logo {
@@ -23,7 +24,7 @@ body {
 }
 
 .logo>span {
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
 
 .site-nav .link {
@@ -31,15 +32,19 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--primary-text-color);
+    color: var(--primary-text-color);
     text-decoration: none;
 
+}
+
+.site-nav .list-nav .activ {
+    color: var(--accent-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .link:active {
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
 
 header .contacts-link {
@@ -48,13 +53,13 @@ header .contacts-link {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color:var(--title-text-color);
+    color: var(--title-text-color);
 }
 
 header .contacts-link:hover,
 .contacts-link:focus,
 .contacts-link:active {
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
 
 .hero-title {
@@ -64,8 +69,8 @@ header .contacts-link:hover,
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color:var(--focus-color);
-    background-color:var(--title-text-color);
+    color: var(--focus-color);
+    background-color: var(--title-text-color);
 }
 
 .button {
@@ -76,8 +81,8 @@ header .contacts-link:hover,
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color:var(--focus-color);
-    background:var(--accent-color);
+    color: var(--focus-color);
+    background: var(--accent-color);
 }
 
 .text h2 {
@@ -90,7 +95,7 @@ header .contacts-link:hover,
 .text p {
     font-size: 14px;
     line-height: 1.71;
-    color:var(--title-text-color);
+    color: var(--title-text-color);
 }
 
 h3 {
@@ -106,7 +111,7 @@ h3 {
     line-height: 1.14;
     text-align: center;
     text-transform: uppercase;
-    color:var(--focus-color);
+    color: var(--focus-color);
     background-color: rgba(47, 48, 58, 0.8);
 }
 
@@ -121,15 +126,14 @@ h3 {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    color:var(--title-text-color);
+    color: var(--title-text-color);
 }
 
 footer {
     background: #2F303A;
     font-size: 14px;
     line-height: 1.14;
-    text-transform: uppercase;
-    color:var(--focus-color);
+    color: var(--focus-color);
 }
 
 footer .contacts-item {
@@ -146,7 +150,7 @@ footer .contacts-item:hover,
 }
 
 footer .contacts-address {
-    color:var(--focus-color);
+    color: var(--focus-color);
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -155,9 +159,13 @@ footer .contacts-address {
 footer .contacts-address:hover,
 .contacts-address:focus,
 .contacts-address:active {
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
 
 footer>address {
     font-style: normal;
+}
+
+.sign {
+    text-transform: uppercase;
 }
